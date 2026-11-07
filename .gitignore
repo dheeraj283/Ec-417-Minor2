@@ -1,0 +1,21 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Datasets and checkpoints (Strict course rule: do not commit data/weights)
+data/*.npz
+data/*.npy
+data/*.csv
+checkpoints/
+*.pt
+*.pth
+
+# Environment and IDE
+.env
+.venv/
+env/
+venv/
+.vscode/
+.idea/
